@@ -1,0 +1,6 @@
+# dsh-llm-transient-retry 安装层：一行 insert。
+# 行 id 是本插件在 profile 层的稳定身份；name 交给 Node 模块解析。
+# 依赖面：不声明 peerDependencies，故不受 peer 版本门禁的静默禁用影响（本插件不消费任何 DSH 服务）。
+- insert:
+    - id: llm-transient-retry
+      name: dsh-llm-transient-retry
